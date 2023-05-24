@@ -1,3 +1,9 @@
+Soluciones al reto
+
+https://github.com/CristianNorga/laboratorio-landing-perf-angular
+https://github.com/Alberto-Arias-x64/laboratorio-landing-perf-angular
+More: https://github.com/platzi/laboratorio-landing-perf-angular/forks
+
 # Landing - Angular
 
 Este en proyecto está la landing de un producto, el cual tiene toda la información necesaria de lanzamiento.
@@ -45,7 +51,7 @@ El proyecto ya viene con la configuración por defecto que maneja Angular, así:
 └── tsconfig.spec.json
 ```
 
-El sitio  usa sass para los estilos donde se llama el archivo principal `src/app/styles.scss`,  y todas las imágenes  en `src/assets/images/*`.
+El sitio usa sass para los estilos donde se llama el archivo principal `src/app/styles.scss`,  y todas las imágenes  en `src/assets/images/*`.
 
 ```
 .
@@ -166,7 +172,7 @@ module.exports = {
 
 ### 3. Implementar SSR
 
-Con el mismo objetivo de seguir mejorando el rendimiento y el SEO del sitio, se debe incorporar SSR en ese sitio con [Angular Universal](https://angular.io/guide/universal)  y lograr mejores puntajes en el reporte de Lighthouse.
+Con el mismo objetivo de seguir mejorando el rendimiento y el SEO del sitio, se debe incorporar SSR en ese sitio con [Angular Universal](https://angular.io/guide/universal) y lograr mejores puntajes en el reporte de Lighthouse.
 
 Para este caso se creó un script específico que es `npm run lhci:ssr` el cual corre el reporte de Lighthouse pero usando SSR.
 
